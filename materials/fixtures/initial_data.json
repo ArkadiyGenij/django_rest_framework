@@ -1,0 +1,122 @@
+[
+  {
+    "model": "materials.course",
+    "pk": 1,
+    "fields": {
+      "name": "Курс по Python",
+      "preview": null,
+      "description": "Изучите основы Python."
+    }
+  },
+  {
+    "model": "materials.course",
+    "pk": 2,
+    "fields": {
+      "name": "Курс по Java",
+      "preview": null,
+      "description": "Изучите основы Java."
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 1,
+    "fields": {
+      "name": "Введение в Python",
+      "description": "Основы синтаксиса.",
+      "preview": null,
+      "video_url": "http://example.com/video1",
+      "course": 1
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 2,
+    "fields": {
+      "name": "Введение в Java",
+      "description": "Основы синтаксиса.",
+      "preview": null,
+      "video_url": "http://example.com/video1",
+      "course": 1
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 3,
+    "fields": {
+      "name": "Введение в Python",
+      "description": "Основы синтаксиса.",
+      "preview": null,
+      "video_url": "http://example.com/video1",
+      "course": 1
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 4,
+    "fields": {
+      "name": "Урок из второго курса",
+      "description": "Основы синтаксиса.",
+      "preview": null,
+      "video_url": "http://example.com/video1",
+      "course": 2
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 5,
+    "fields": {
+      "name": "Урок из второго курса",
+      "description": "Основы синтаксиса.",
+      "preview": null,
+      "video_url": "http://example.com/video1",
+      "course": 2
+    }
+  },
+  {
+    "model": "materials.lesson",
+    "pk": 6,
+    "fields": {
+      "name": "Урок из второго курса",
+      "description": "Основы синтаксиса.",
+      "preview": null,
+      "video_url": "http://example.com/video1",
+      "course": 2
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "payment_date": "2024-09-22",
+      "paid_course": 1,
+      "paid_lesson": null,
+      "payment_amount": 1000,
+      "payment_method": "cash"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "payment_date": "2023-10-12",
+      "paid_course": 2,
+      "paid_lesson": null,
+      "payment_amount": 1000,
+      "payment_method": "cash"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "payment_date": "2022-01-18",
+      "paid_course": null,
+      "paid_lesson": 4,
+      "payment_amount": 1000,
+      "payment_method": "translation"
+    }
+  }
+]
